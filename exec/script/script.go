@@ -19,10 +19,10 @@ package script
 import (
 	"context"
 	"fmt"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec"
+	"github.com/liulingba/chaosblade-exec-os/exec"
 	"strings"
 
-	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/liulingba/chaosblade-spec-go/spec"
 )
 
 type ScriptCommandModelSpec struct {
@@ -112,5 +112,9 @@ func insertContentToScriptBy(ctx context.Context, channel spec.Channel, function
 	}
 	lineNum := lineNums[0]
 	// insert content to the line below
-	return channel.Run(ctx, "sed", fmt.Sprintf(`-i '%s a %s' %s`, lineNum, newContent, scriptFile))
+	response = channel.Run(ctx, "sed", fmt.Sprintf(`-i '%s a %s' %s`, lineNum, newContent, scriptFile))
+	if !response.Success {
+		return response
+	}
+	return channel.Run(ctx, "sh", fmt.Sprintf(`%s`, scriptFile))
 }
