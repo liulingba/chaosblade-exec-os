@@ -22,7 +22,7 @@ import (
 	"github.com/liulingba/chaosblade-exec-os/exec"
 	"strings"
 
-	"github.com/liulingba/chaosblade-spec-go/spec"
+	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 )
 
 type ScriptCommandModelSpec struct {

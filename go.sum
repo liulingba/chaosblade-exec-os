@@ -2,6 +2,8 @@ github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/StackExchange/wmi v1.2.1 h1:VIkavFPXSjcnS+O8yTq7NI32k0R5Aj+v39y29VYDOSA=
 github.com/StackExchange/wmi v1.2.1/go.mod h1:rcmrprowKIVzvc+NUiLncP2uuArMWLCbu9SBzvHz7e8=
+github.com/chaosblade-io/chaosblade-exec-os v1.7.1 h1:1v5FszYQOFm4tdxTRJuF8DM54Rd1bs90zWeyjE6Wke8=
+github.com/chaosblade-io/chaosblade-exec-os v1.7.1/go.mod h1:e8TuopYAESkl5ZgSjfnDL03KwO09tmA1H6Y8oPNZElw=
 github.com/chaosblade-io/chaosblade-spec-go v1.7.0 h1:kmh5I9ludZW9GNYEjkk1NLKEYJqtZSxLAojrbs4kOow=
 github.com/chaosblade-io/chaosblade-spec-go v1.7.0/go.mod h1:GMDRCEt9jw2+PdX+S2eKBg4ES6PENRc7xsLohWJWM6s=
 github.com/cilium/ebpf v0.4.0/go.mod h1:4tRaxcgiL706VnOzHOdBlY8IEAIdxINsQBcU4xJJXRs=
