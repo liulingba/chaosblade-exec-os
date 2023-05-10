@@ -16,5 +16,6 @@ RUN apt-get update \
 
 ENV CC /usr/local/musl/bin/musl-gcc
 ENV GOOS linux
+ENV GOPROXY https://goproxy.cn
 
 ENTRYPOINT [ "make" ]
