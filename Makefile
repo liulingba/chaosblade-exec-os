@@ -2,9 +2,10 @@
 
 BLADE_SRC_ROOT=$(shell pwd)
 
-GO_ENV=CGO_ENABLED=1
+GO_ENV_1=CGO_ENABLED=1
+GO_ENV_2=GOPROXY=https://goproxy.cn
 GO_MODULE=GO111MODULE=on
-GO=env $(GO_ENV) $(GO_MODULE) go
+GO=env $(GO_ENV_1)  $(GO_ENV_2) $(GO_MODULE) go
 GO_FLAGS=-ldflags="-s -w"
 
 UNAME := $(shell uname)
