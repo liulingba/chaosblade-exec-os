@@ -19,14 +19,14 @@ package file
 import (
 	"context"
 	"fmt"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec"
+	"github.com/liulingba/chaosblade-exec-os/exec"
 	"github.com/chaosblade-io/chaosblade-spec-go/log"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
 
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/category"
+	"github.com/liulingba/chaosblade-exec-os/exec/category"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 )
 

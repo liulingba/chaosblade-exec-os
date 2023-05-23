@@ -19,7 +19,7 @@ package kernel
 import (
 	"context"
 	"fmt"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec"
+	"github.com/liulingba/chaosblade-exec-os/exec"
 	"github.com/chaosblade-io/chaosblade-spec-go/log"
 	"path"
 	"strings"
@@ -27,7 +27,7 @@ import (
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
 
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/category"
+	"github.com/liulingba/chaosblade-exec-os/exec/category"
 )
 
 const StraceErrorBin = "chaos_straceerror"

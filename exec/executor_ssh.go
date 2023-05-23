@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chaosblade-io/chaosblade-exec-os/version"
+	"github.com/liulingba/chaosblade-exec-os/version"
 
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"golang.org/x/crypto/ssh"

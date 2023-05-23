@@ -19,7 +19,7 @@ package mem
 import (
     "context"
     "fmt"
-    "github.com/chaosblade-io/chaosblade-exec-os/exec"
+    "github.com/liulingba/chaosblade-exec-os/exec"
     "github.com/chaosblade-io/chaosblade-spec-go/channel"
     "github.com/chaosblade-io/chaosblade-spec-go/log"
     "github.com/containerd/cgroups"
