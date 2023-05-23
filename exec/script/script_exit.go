@@ -19,10 +19,11 @@ package script
 import (
 	"context"
 	"fmt"
-	"github.com/liulingba/chaosblade-exec-os/exec"
-	"github.com/liulingba/chaosblade-exec-os/exec/category"
+
 	"github.com/chaosblade-io/chaosblade-spec-go/log"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/liulingba/chaosblade-exec-os/exec"
+	"github.com/liulingba/chaosblade-exec-os/exec/category"
 )
 
 type ScriptExitActionCommand struct {
@@ -115,7 +116,7 @@ func (see *ScriptExitExecutor) start(ctx context.Context, scriptFile, functionNa
 		content = fmt.Sprintf(`echo "%s";`, exitMessage)
 	}
 	if exitCode == "" {
-		exitCode = "1"
+		exitCode = "0"
 	}
 	content = fmt.Sprintf("%sexit %s", content, exitCode)
 	// backup file
